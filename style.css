@@ -1,0 +1,139 @@
+body{
+    margin:0;  
+}
+header,
+.my-work,
+.Subscribe{
+    background-color: #23232e;
+    text-align: center;
+    color:white;
+    padding: 30px 0;
+}
+header img p{
+    padding-bottom: 40px;
+    width:4.5%; 
+    line-height:15px;    
+}
+h2 {
+    font-size:30px;
+    text-transform: uppercase;      
+}
+header span{
+    border:2px solid white;
+    border-radius: 50%;
+    padding:4px 7px;
+    margin-top:90px;
+    display:inline-block;
+}
+.container{
+    padding:0 25%;
+}
+.what-i-do,
+.my-photography,
+footer{
+    background-image: url("img/img.png");
+    background-size: cover;
+    color:#464b4f;
+    overflow: hidden; 
+    text-align: center;  
+}
+.what-i-do > p{
+    font-size: 20px;
+    line-height: 25px;
+}
+ .row .col  {
+    width:31.3%;
+    margin: 1% 1%;
+    text-align: left;
+    float: left;
+}
+.what-i-do .row .col h4{
+    text-transform: uppercase;
+}
+.my-work {
+    overflow: hidden;
+    text-align: center;
+}
+.row .col img{  
+    width:100%;
+}
+.my-work .menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.my-work .menu{
+    margin-bottom:20px;
+}
+.my-work .menu ul li{
+    display: inline-block;
+    margin:0 10px;   
+}
+.my-work .menu ul li a{
+    color:white;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.my-work .menu ul li a:hover{
+    border-bottom:3px solid #7b77c9;
+}
+button{
+    border:none;
+    border-radius: 3px;
+    padding:10px 25px;
+    background-color: #7b77c9;
+    color: white;
+    margin-bottom:25px ;
+}
+.font-logo i{
+    font-size: 30px;
+    padding: 30px;
+}
+input{
+    padding:7px 20px;
+    border:none;
+    border-radius: 3px;
+    outline:none;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;;
+}
+footer{
+    padding:20px 0;
+}
+ footer ul li{
+    display: inline-block;
+
+ }
+ footer ul li a{
+    font-size: 25px;
+    padding:0 10px;
+    color:#464b4f   
+ }
+ @media all and (max-width: 810px){
+	header img{
+		width:12%;
+	}
+	.container{
+		padding:0 10%;
+	}
+	}
+	@media all and (max-width: 500px){
+		.row .col{
+			width: 96%;
+		}
+	.my-work .menu ul li{
+		display:block;
+		margin:10px 0;
+	}
+	
+}
+@media all and (max-width: 412px){
+	.photography h2{
+		font-size: 35px;
+	}
+
+}
+ 
